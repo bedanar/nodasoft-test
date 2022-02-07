@@ -94,7 +94,7 @@ a{
     padding: 30px;
     background: var(--swamp-color);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(1px, 1fr));
     grid-gap: 30px;
 }
 .grids-seccond__list-item{
